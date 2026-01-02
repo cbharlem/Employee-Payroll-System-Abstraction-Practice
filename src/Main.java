@@ -34,7 +34,9 @@ public class Main {
     }
 
     public static void displayInformation(){
-
+        System.out.println("Enter employee name: ");
+        String name = input.nextLine();
+        manager.displayEmployeeInformation(name);
     }
 
     public static void displayEmployees(){
@@ -43,19 +45,6 @@ public class Main {
 
     public static void main(String[] args) {
         int choice;
-
-//Employee employee1 = new FullTimeEmployee("Charles");
-//Employee employee2 = new FullTimeEmployee("Krisha");
-//Employee employee3 = new PartTimeEmployee("John", 150, 100);
-//
-//
-//
-//
-//
-//employee1.displayInfo();
-//employee2.displayInfo();
-//employee3.displayInfo();
-
 
         do {
 

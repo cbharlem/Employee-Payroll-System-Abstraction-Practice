@@ -4,13 +4,10 @@ public class FullTimeEmployee extends Employee {
 
 FullTimeEmployee(String name){
     super(name);
-
-
 }
 
 public double calculateSalary(){
 return salary;
 }
-
 
 }

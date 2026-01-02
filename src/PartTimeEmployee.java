@@ -13,10 +13,7 @@ this.hoursWorked = hoursWorked;
 
 public double calculateSalary(){
     double finalSalary = hourlyRate * hoursWorked;
-
     return finalSalary;
-
-
 }
 
 
