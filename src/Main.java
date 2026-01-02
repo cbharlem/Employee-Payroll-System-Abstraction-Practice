@@ -29,7 +29,8 @@ public class Main {
 
     public static void removeEmployee(){
         System.out.println("Enter employee name: ");
-
+        String name = input.nextLine();
+        manager.removeEmployee(name);
     }
 
     public static void displayInformation(){
